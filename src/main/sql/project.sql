@@ -1,7 +1,7 @@
 CREATE TABLE Person (
     id int PRIMARY KEY AUTO_INCREMENT,
     name varchar(100) NOT NULL UNIQUE,
-    dateOfBirth int NOT NULL
+    date_of_birth int NOT NULL
 );
 
 CREATE TABLE Book (
